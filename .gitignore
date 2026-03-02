@@ -1,0 +1,104 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# 项目特定数据目录
+qdrant_db/
+markdown/
+markdown_docs/
+parent_store/
+docs/
+uploads/
+temp/
+tmp/
+
+# 敏感信息（关键）
+.env
+*.env
+!.env.example
+config_local.py
+*_secret.py
+*_secrets.py
+credentials.json
+*.pem
+*.key
+*.crt
+
+# 依赖清单备份
+requirements_frozen.txt
+
+# 日志文件
+*.log
+logs/
+
+# 测试覆盖率
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*~.nib
